@@ -1,0 +1,17 @@
+# Ignore Python cache and environment folders
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+
+# Ignore local environment files
+.env
+.env.*
+
+# Ignore local Streamlit secrets
+.streamlit/secrets.toml
+
+# Ignore OS junk files
+.DS_Store
+Thumbs.db
