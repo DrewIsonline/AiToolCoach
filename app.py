@@ -66,7 +66,7 @@ with st.sidebar:
 
 # ================= Provider/Model Catalog =================
 # Default open-source text model via Groq:
-DEFAULT_GROQ_TEXT = "llama-3.1-70b-versatile"  # fast + strong; adjust if you prefer 8b for cost
+DEFAULT_GROQ_TEXT = "llama-3.3-70b-versatile"  # fast + strong; adjust if you prefer 8b for cost
 # Sensible OpenAI default:
 DEFAULT_OPENAI_TEXT = "gpt-4.1"  # change to gpt-4o or your latest enabled model if you like
 
@@ -427,3 +427,4 @@ with right:
                 st.error(str(e))
 
 render_footer_logo()
+
